@@ -12,9 +12,18 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+.logo {
+    height: 100px;
+    width: auto;
+}
+
+h1, nav li {
+    text-transform: uppercase;
+}
+
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-                        url('img/hero.jpg');
+                        url('images/hero.jpg');
     background-size: cover;
     height: 100vh;
     background-attachment: fixed;
@@ -23,6 +32,25 @@ header {
 .row {
     max-width: 1140px;
     margin: 0 auto;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    border-bottom: rgba(0, 0, 0, 0);
+    transition-duration: 0.5s;
+    padding: 5px;
+}
+
+nav a:hover {
+    border-bottom: rgba(255, 100, 50, 1) 2px solid;
+    transition-duration: 0.5s;
 }
 
 .hero-text-box {
