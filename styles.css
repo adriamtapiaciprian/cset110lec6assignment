@@ -114,7 +114,17 @@ nav a:hover {
 }
 
 /* main */
-h2, h3 {
+h3 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    -webkit-text-stroke-width: 0.4pt;
+    font-weight: lighter;
+    margin: 15px 0;
+}
+
+h2 {
+    margin-top: 20px;
     text-align: center;
     font-family: 'Lato', sans-serif;
 }
@@ -139,6 +149,8 @@ h2:after {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 .left p {
@@ -148,8 +160,11 @@ h2:after {
 }
 
 .grid {
+    grid-template-columns: 300px 300px 300px 300px;
+    margin: auto;
+    width: 1200px;
+    margin: 10px auto 50px auto;
     display: grid;
-    grid-template-columns: auto auto auto auto;
 }
 
 .meal-photo{
@@ -174,4 +189,14 @@ h2:after {
 .meal-photo img:hover{
     opacity: 1;
     transform: scale(1);
+}
+
+.grid p {
+    margin-right: 50px;
+    text-align: left;
+}
+
+ion-icon {
+    color: #e67e22;
+    font-size: 50px;
 }
