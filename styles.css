@@ -177,7 +177,6 @@ ion-icon {
     font-size: 50px;
 }
 
-/* photos page */
 .meal-photo{
     width: 100%;
     margin: 0;
@@ -259,7 +258,27 @@ ion-icon {
 }
 
 /* Cities Page */
-.cities img{
-    height: 50px;
-    width: auto;
+.cities{
+    margin: 50px auto 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.landmarks{
+    height: 150px;
+    width: 90%;
+}
+
+.sideicons{
+    font-size: 20px;
+}
+
+.stat{
+    display:flex;
+    align-items: center;
+}
+
+.twitter-handle{
+    color: #e67e22;
 }
