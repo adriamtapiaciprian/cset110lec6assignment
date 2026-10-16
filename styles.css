@@ -167,6 +167,16 @@ h2:after {
     display: grid;
 }
 
+.grid p {
+    margin-right: 50px;
+    text-align: left;
+}
+
+ion-icon {
+    color: #e67e22;
+    font-size: 50px;
+}
+
 .meal-photo{
     width: 100%;
     margin: 0;
@@ -191,12 +201,125 @@ h2:after {
     transform: scale(1);
 }
 
-.grid p {
-    margin-right: 50px;
-    text-align: left;
+/* Download page */
+.download{
+    max-width: 1140px;
 }
 
-ion-icon {
+.how-it-works{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+    font-size: x-large;
+}
+
+.circle{
+    font-size: xx-large;
     color: #e67e22;
-    font-size: 50px;
+    border-radius: 50%;
+    border: solid 2px #e67e22;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.directions{
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.iPhone{
+    width: 20%;
+    margin-left: 150px;
+    height: auto;
+}
+
+.download-apps{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.btn-app:link,
+.btn-app:visited{
+    border: 0;
+}
+
+.btn-app img{
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
+/* Cities Page */
+.cities{
+    margin: 50px auto 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.landmarks{
+    height: 150px;
+    width: 90%;
+}
+
+.sideicons{
+    font-size: 20px;
+}
+
+.stat{
+    display:flex;
+    align-items: center;
+}
+
+.twitter-handle{
+    color: #e67e22;
+}
+
+/* testimonial section */
+blockquote:before{
+    content: "\201c";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+blockquote{
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+.testimonials{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/berlin.jpg);
+    background-size: cover;
+    color: white;
+    padding: 80px 0;
+}
+
+.customers{
+    margin: 30px;
+}
+
+.review{
+    display: flex;
+}
+
+.faceshot{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    flex-shrink: 0;
 }
