@@ -281,3 +281,44 @@ ion-icon {
 .twitter-handle{
     color: #e67e22;
 }
+
+/* testimonial section */
+blockquote:before{
+    content: "\201c";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+blockquote{
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+.testimonials{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/berlin.jpg);
+    background-size: cover;
+    color: white;
+    padding: 80px 0;
+}
+
+.customers{
+    margin: 30px;
+}
+
+.review{
+    display: flex;
+}
+
+.faceshot{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
