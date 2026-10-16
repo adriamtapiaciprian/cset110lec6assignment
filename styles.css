@@ -433,3 +433,96 @@ blockquote{
     margin-right: 20px;
     flex-shrink: 0;
 }
+
+/* sign up section */
+.subscription{
+    background-color: #f4f4f4;
+    padding: 80px;
+}
+
+.boxes{
+    display: flex;
+    margin-top: 60px;
+    gap: 40px;
+}
+
+.sign-up{
+    width: 350px;
+    background-color: #fcfcfc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 2px #cac5c5;
+    border-top: 3px solid #e8e8e8;
+}
+
+.plans{
+    margin-left: 20px;
+}
+.gray-box{
+    display: flex;
+    align-items: baseline;
+}
+
+.price{
+    font-size: 300%; font-weight: 100;
+    color: #e67e22;
+}
+
+.month{
+    color: #e67e22;
+}
+
+.list{
+    margin-top: 10px;
+    border-top: 3px solid #e8e8e8;
+    background-color: white;
+    padding: 10px;
+}
+
+li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+}
+
+li ion-icon{
+    font-size: 20px;
+}
+
+.signup-button{
+    text-align: center;
+    padding: 30px 0;
+    border-top: 3px solid #e8e8e8;
+}
+
+.btn-signup{
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: #e67e22;
+    color: white;
+    text-decoration: none;
+    border-radius: 100px;
+    transition: background-color 0.3s;
+}
+
+.btn-signup:hover{
+    background-color: #cf6d17;
+}
+
+.btn-signup-white{
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: white;
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    text-decoration: none;
+    border-radius: 100px;
+    transition: background-color 0.3s;
+}
+
+.btn-signup-white:hover{
+    background-color: #e67e22;
+    color: white;
+}
