@@ -162,7 +162,6 @@ h2:after {
 .grid {
     display: grid;
     grid-template-columns: 300px 300px 300px 300px;
-    margin: auto;
     width: 1200px;
     margin: 10px auto 50px auto;
 }
